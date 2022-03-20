@@ -1,0 +1,78 @@
+{
+  "name": "lenna_analytic",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^25.0.0",
+    "@ckeditor/ckeditor5-vue": "^2.0.1",
+    "@ckeditor/ckeditor5-vue2": "^1.0.5",
+    "@jeremyhamm/vue-slider": "^0.2.0",
+    "@vue/cli": "^4.2.2",
+    "apexcharts": "^3.15.6",
+    "axios": "^0.21.1",
+    "bootstrap-vue": "^2.5.0",
+    "chart.js": "^2.9.3",
+    "core-js": "^3.6.4",
+    "echarts": "^4.6.0",
+    "echarts-wordcloud": "^1.1.3",
+    "fusioncharts": "^3.15.1-sr.1",
+    "hchs-vue-charts": "^1.2.8",
+    "highcharts": "^8.1.2",
+    "highcharts-vue": "^1.3.5",
+    "v-calendar": "^1.0.0-beta.23",
+    "vue": "^2.6.11",
+    "vue-apexcharts": "^1.5.2",
+    "vue-avatar": "^2.3.1",
+    "vue-chartjs": "^3.5.0",
+    "vue-cookie": "^1.1.4",
+    "vue-d3-cloud": "^0.2.0",
+    "vue-dialog-loading": "^0.4.3",
+    "vue-fixed-header": "^3.2.15",
+    "vue-fusioncharts": "^3.0.4",
+    "vue-izitoast": "^1.2.1",
+    "vue-js-modal": "^1.3.33",
+    "vue-loading-overlay": "^3.4.2",
+    "vue-material": "^1.0.0-beta-15",
+    "vue-morris": "^1.1.0",
+    "vue-mq": "^1.0.1",
+    "vue-router": "^3.1.5",
+    "vue-scrolling-table": "^0.2.2",
+    "vue-sticky-sidebar": "^1.0.5",
+    "vue2-frappe": "^1.0.29",
+    "vuewordcloud": "^18.7.11",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-plugin-router": "^4.2.2",
+    "@vue/cli-service": "~4.2.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
